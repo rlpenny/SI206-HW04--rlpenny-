@@ -14,7 +14,7 @@ def answers():
 
 def check_question(s):
     if s[-1] == "?":
-        answers()
+        return answers()
     else:
         print("I’m sorry, I can only answer questions")
         questions()
