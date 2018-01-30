@@ -5,9 +5,11 @@ def question():
 
     while s[-1] == "?":
         return(answers())
+
     else:
         print("I’m sorry, I can only answer questions")
-        question()
+        if s != "quit":
+            question()
 
 
 
