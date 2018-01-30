@@ -1,2 +1,5 @@
 def question():
-    return "What is your question?"
+    s = input("What is your question?")
+    return(s)
+
+question()
